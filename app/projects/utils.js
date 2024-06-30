@@ -51,5 +51,5 @@ export function getProjects() {
 }
 
 export function formatDate(date) {
-  return format(parseISO(date), "MMMM dd, yyyy");
+  return format(parseISO(date), "yyyy");
 }
