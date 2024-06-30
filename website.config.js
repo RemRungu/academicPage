@@ -1,33 +1,33 @@
 export const personalInfo = {
-  name: 'Hiroshi Ishii',
+  name: 'Rem RunGu Lin',
   profilePicture: '/profile.jpg', //optional
-  role: 'Professor',
-  university: 'MIT Media Lab',
-  universityWebsite: 'https://www.zju.edu.cn/',
+  role: 'PhD Candidate',
+  university: 'HKUST(GZ), MIT',
+  universityWebsite: 'https://cma.hkust-gz.edu.cn/',
   socialMedia: [
-    { name: 'Email', url: 'https://linkedin.com' },
-    { name: 'Twitter', url: 'https://twitter.com/anxndsgn' },
+    { name: 'Email', url: 'linrungu1224@gmail.com' },
+    { name: 'Twitter', url: 'tbd' },
     {
       name: 'GitHub',
-      url: 'https://github.com/anxndsgn/academic-homepage-template',
+      url: 'tbd',
     },
-    { name: 'LinkedIn', url: 'https://linkedin.com' },
-    { name: 'ORCID', url: 'https://orcid' },
-    { name: 'Google Scholar', url: 'https://scholar.google.com' },
+    { name: 'LinkedIn', url: 'tbd' },
+    { name: 'ORCID', url: 'https://orcid.org/my-orcid?orcid=0000-0003-1931-7609' },
+    { name: 'Google Scholar', url: 'https://scholar.google.com/citations?user=4EjnMJMAAAAJ&hl=en&oi=ao' },
   ],
 };
 
 export const websiteInfo = {
   title: personalInfo.name,
-  description: 'HCI researcher',
+  description: 'Digital Artist & Researcher',
   // teaserImage: "/teaser.jpg",
 };
 
 export const navigations = [
   { name: 'Projects', route: '/projects' },
   { name: 'Publications', route: '/publications' },
-  // { name: "News", route: "/news" },
-  // { name: 'About', route: '/about' },
+  //{ name: "Exhibitions", route: "/exhibitions" },
+  //{ name: 'Performances', route: '/performances' },
   { name: 'CV', route: '/cv.pdf' },
 ];
 
