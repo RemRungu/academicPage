@@ -28,6 +28,9 @@ export default function Publications({ bibtex }) {
                   item.entryTags.booktitle?.replace(/{|}/g, "")}
               </span>
               <span className="pr-2">{item.entryTags.year}</span>
+              {item.entryTags.pages && (
+                <span className="pr-2">Pages: {item.entryTags.pages}</span>
+              )}
             </div>
           </li>
         );
