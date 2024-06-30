@@ -2,16 +2,18 @@ export const personalInfo = {
   name: 'Rem RunGu Lin',
   profilePicture: '/profile.jpg', //optional
   role: 'PhD Candidate',
-  university: 'HKUST(GZ), MIT',
+  university: 'HKUST(GZ)',
   universityWebsite: 'https://cma.hkust-gz.edu.cn/',
   socialMedia: [
-    { name: 'Email', url: 'linrungu1224@gmail.com' },
-    { name: 'Twitter', url: 'tbd' },
+    { name: 'Email', url: 'mailto:linrungu1224@gmail.com' },
+    //{ name: 'Twitter', url: 'tbd' },
+    /*
     {
       name: 'GitHub',
       url: 'tbd',
     },
-    { name: 'LinkedIn', url: 'tbd' },
+    */
+    //{ name: 'LinkedIn', url: 'tbd' },
     { name: 'ORCID', url: 'https://orcid.org/my-orcid?orcid=0000-0003-1931-7609' },
     { name: 'Google Scholar', url: 'https://scholar.google.com/citations?user=4EjnMJMAAAAJ&hl=en&oi=ao' },
   ],
