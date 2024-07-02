@@ -7,7 +7,7 @@ export default function ProjectSection() {
     return new Date(b.metadata.date) - new Date(a.metadata.date);
   });
   return (
-    <section className="grid gap-5 transition-all h-auto">
+    <section className="grid gap-5 transition-all h-auto custom-width">
       {projects.map((project) => (
         <ProjectCard
           key={project.slug}
