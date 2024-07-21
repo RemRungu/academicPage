@@ -31,6 +31,11 @@ export default function Publications({ bibtex }) {
               {item.entryTags.pages && (
                 <span className="pr-2">Pages: {item.entryTags.pages}</span>
               )}
+              {item.entryTags.howpublished && (
+                <a href={item.entryTags.howpublished} className="underline">
+                  PDF Link
+                </a>
+              )}
             </div>
           </li>
         );
