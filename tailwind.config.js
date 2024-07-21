@@ -32,7 +32,7 @@ module.exports = {
         "accordion-up": "accordion-up 0.2s ease-out",
       },
       width: {
-        'custom': '120%', // Add your custom width here
+        'custom': '100%', // Add your custom width here
       },
     },
   },
