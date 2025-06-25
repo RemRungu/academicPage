@@ -1,7 +1,7 @@
 export const personalInfo = {
   name: 'Rem RunGu Lin',
   profilePicture: '/profile.jpg', //optional
-  role: 'PhD Candidate',
+  role: 'PhD',
   university: 'HKUST(GZ)',
   universityWebsite: 'https://cma.hkust-gz.edu.cn/',
   socialMedia: [
